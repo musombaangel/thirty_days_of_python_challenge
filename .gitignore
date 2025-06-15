@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

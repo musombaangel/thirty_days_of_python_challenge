@@ -1,0 +1,11 @@
+{%extends 'layout.html'%}{%block content%}
+<h1>30 Days of Python Challenge Participants</h1>
+{% for student in info %}
+{{student.name}}<br>
+{{student.email}}<br>
+{{student.country}}<br>
+{{student.city}}<br>
+{{student.skills}}<br>
+{{student.bio}}<br>
+{% endfor %}
+{%endblock%}

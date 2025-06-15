@@ -1,0 +1,15 @@
+#navbar{
+    background-color: #50749c;
+}
+
+#navbar a{
+    color: rgb(77, 77, 77);
+}
+button{
+    background-color: #50749c;
+}
+
+.custom-width{
+    max-width: 1200px;
+    margin:0 auto;
+}

@@ -1,0 +1,19 @@
+#navbar{
+    background-color: rgb(105, 62, 105);
+}
+
+#navbar a{
+    color: rgb(77, 77, 77);
+}
+button{
+    background-color: #50749c;
+}
+
+.custom-width{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.numbered_items{
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+{%extends 'layout.html'%}{%block content%}
+<div class="form-data">
+    <form method="POST">
+        <label for="text-analyze">Text Analyzer</label>
+        <input type="text" id="text-analyze" name="text-analyze">
+        <button type="submit">Process Text </button>
+    </form>
+    {%if txt%}
+        <p>
+            Total number of words: {{word_count}}<br>
+            Total number of characters: {{chars}}<br>
+            The most frequent word: {{mf_word}}<br>
+            The word variety(lexical density): {{lex}}<br>
+
+        </p>
+    {%endif%}
+</div>
+{%endblock%}

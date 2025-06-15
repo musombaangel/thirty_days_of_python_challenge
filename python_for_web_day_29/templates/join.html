@@ -1,0 +1,21 @@
+{%extends 'layout.html'%}{%block content%}
+<div class="form-info">
+    <form method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Name"><br>
+        <label for="dob">Date of bith:</label><br>
+        <input type="date" id="dob" name="dob"><br>
+        <label for="country">Country:</label><br>
+        <input type="text" name="country" id="country" placeholder="Country"><br>
+        <label for="city">City:</label><br>
+        <input type="text" name="city" id="city" placeholder="City"><br>
+        <label for="skills">Skills:</label><br>
+        <textarea id="skills" name="skills" placeholder="Your skills, separated by a comma" rows="4" cols="10"></textarea><br>
+        <label for="bio">Your bio:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br>
+        <button type="submit">ADD STUDENT</button>
+
+    </form>
+</div>
+
+{%endblock%}
