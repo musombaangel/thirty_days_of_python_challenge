@@ -6,8 +6,8 @@ This repository contains my personal solutions for each day of the challenge. It
 
 
 
-## 📚 About the Challenge
+## About the Challenge
 
 This challenge was originally created by [Asabeneh Yetayeh](https://github.com/Asabeneh). You can find the original challenge repository here:
 
-[Original 30 Days of Python Repo](https://github.com/Asabeneh/30-Days-Of-Python/tree/master)
+[Original Repository](https://github.com/Asabeneh/30-Days-Of-Python/tree/master)
